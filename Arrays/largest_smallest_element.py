@@ -3,7 +3,7 @@ Program: Find Largest and Smallest Element in a List.
 Description: This program finds the maximum and minimum element in a given list.
 """
 
-#num=map(int,input().split())
+#num=list(map(int,input().split()))
 num=[3,4,5,8,32]
 max=min=num[0]
 for i in num:
